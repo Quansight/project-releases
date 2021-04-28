@@ -1,0 +1,30 @@
+name: find_releases
+on:
+  schedule:
+  - cron '0 0 * * *'
+
+jobs:
+  linux:
+    name: Linux
+    runs-on: ubuntu-latest
+    env:
+      QUANSIGHT_BOT_TOKEN: ${{ secrets.QUANSIGHT_BOT_TOKEN }}
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Update new release list
+        run: |
+          python find_releases.py
+          git add new_releases.txt
+          git commit -m 'auto-update package releases'
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.QUANSIGHT_BOT_TOKEN }}

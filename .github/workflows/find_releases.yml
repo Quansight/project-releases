@@ -1,7 +1,7 @@
 name: find_releases
 on:
   schedule:
-  - cron '0 0 * * *'
+  - cron '*/10 * * * *'
 
 jobs:
   linux:

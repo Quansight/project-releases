@@ -8,19 +8,17 @@ jobs:
     runs-on: ubuntu-latest
     env:
       QUANSIGHT_BOT_TOKEN: ${{ secrets.QUANSIGHT_BOT_TOKEN }}
-    timeout-minutes: 10
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
-        python-version: '3.9'
+        python-version: '3.8'
     - name: Install dependencies
       run: pip install -r requirements.txt
     - name: Update new release list
-      run: |
-        python find_releases.py
+      run: python find_releases.py
 #        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
 #        git config --local user.name "github-actions[bot]"
 #        git add new_releases.txt

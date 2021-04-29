@@ -1,0 +1,4 @@
+sympy/sympy sympy-1.8 04-09-2021
+scipy/scipy v1.6.3 04-25-2021
+jupyterlab/jupyterlab v3.1.0a5 04-19-2021
+spyder-ide/spyder v5.0.1 04-16-2021

@@ -1,7 +1,10 @@
 name: find_releases
 on:
-  schedule:
-  - cron '*/10 * * * *'
+  push:
+    branches:
+      - master
+  #schedule:
+  #- cron '*/10 * * * *'
 
 jobs:
   build:

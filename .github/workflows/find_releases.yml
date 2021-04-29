@@ -2,7 +2,7 @@ name: find_releases
 on:
   push:
     branches:
-      - master
+      - main
   #schedule:
   #- cron '*/10 * * * *'
 

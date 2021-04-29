@@ -18,12 +18,13 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
     - name: Update new release list
-      run: python find_releases.py
-#        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#        git config --local user.name "github-actions[bot]"
-#        git add new_releases.txt
-#        git commit -m 'auto-update package releases'
-#    - name: Push
-#      uses: ad-m/github-push-action@master
-#      with:
-#        github_token: ${{ secrets.QUANSIGHT_BOT_TOKEN }}
+      run: |
+        python find_releases.py
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add new_releases.txt
+        git commit -m 'auto-update package releases'
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.QUANSIGHT_BOT_TOKEN }}

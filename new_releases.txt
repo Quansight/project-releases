@@ -1,4 +1,4 @@
-pytorch/pytorch v1.9.0-rc4 06-11-2021
+pytorch/pytorch v1.9.0 06-11-2021
 scipy/scipy v1.7.0rc2 06-14-2021
 jupyterlab/jupyterlab v3.1.0a12 06-08-2021
 spyder-ide/spyder v5.0.4 06-11-2021

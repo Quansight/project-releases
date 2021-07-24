@@ -1,2 +1,1 @@
 jupyterlab/jupyterlab v3.1.0rc2 07-21-2021
-spyder-ide/spyder v5.0.5 06-23-2021

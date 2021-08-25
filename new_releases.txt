@@ -1,3 +1,4 @@
 scipy/scipy v1.7.1 08-01-2021
-jupyterlab/jupyterlab v4.0.0a4 08-16-2021
+jupyterlab/jupyterlab v4.0.0a5 08-24-2021
+deshaw/pyflyby 1.7.0 08-24-2021
 spyder-ide/spyder v5.1.1 08-04-2021

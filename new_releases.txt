@@ -1,3 +1,4 @@
+pydata/sparse 0.13.0 08-28-2021
 scipy/scipy v1.7.1 08-01-2021
 jupyterlab/jupyterlab v4.0.0a6 08-25-2021
 deshaw/pyflyby 1.7.0 08-24-2021

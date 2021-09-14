@@ -1,6 +1,6 @@
 pydata/sparse 0.13.0 08-28-2021
 ipython/ipykernel v6.4.1 09-10-2021
 pytorch/pytorch v1.9.1-rc1 09-12-2021
-jupyterlab/jupyterlab v4.0.0a8 09-08-2021
+jupyterlab/jupyterlab v4.0.0a9 09-13-2021
 deshaw/pyflyby 1.7.0 08-24-2021
 spyder-ide/spyder v5.1.4 09-12-2021

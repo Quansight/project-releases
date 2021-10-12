@@ -1,5 +1,5 @@
 sympy/sympy sympy-1.9 09-30-2021
-pytorch/pytorch v1.10.0-rc1 09-24-2021
+pytorch/pytorch v1.10.0-rc2 10-08-2021
 jupyterlab/jupyterlab v4.0.0a13 10-08-2021
 deshaw/pyflyby 1.7.1 09-29-2021
 spyder-ide/spyder v5.1.5 09-16-2021

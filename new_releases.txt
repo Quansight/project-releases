@@ -1,4 +1,3 @@
 ipython/ipykernel v6.5.0 11-01-2021
-pytorch/pytorch v1.10.0 10-15-2021
 scipy/scipy v1.7.2 11-05-2021
 jupyterlab/jupyterlab v4.0.0a15 11-09-2021

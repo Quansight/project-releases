@@ -1,4 +1,4 @@
 ipython/ipykernel v6.6.0 12-01-2021
 scipy/scipy v1.7.3 11-24-2021
-jupyterlab/jupyterlab v4.0.0a15 11-09-2021
+jupyterlab/jupyterlab v4.0.0a16 12-07-2021
 spyder-ide/spyder v5.2.0 11-24-2021

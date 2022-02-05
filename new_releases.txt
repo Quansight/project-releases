@@ -1,4 +1,5 @@
 ipython/ipykernel v6.8.0 02-01-2022
+pytorch/pytorch v1.11.0-rc1 02-04-2022
 scipy/scipy v1.8.0rc4 01-29-2022
 jupyterlab/jupyterlab v4.0.0a19 01-12-2022
 spyder-ide/spyder v5.2.2 01-21-2022

@@ -1,4 +1,5 @@
 ipython/ipykernel v6.9.1 02-15-2022
+sympy/sympy sympy-1.10rc1 02-17-2022
 pytorch/pytorch v1.11.0-rc2 02-10-2022
 scipy/scipy v1.8.0 02-04-2022
 deshaw/pyflyby 1.7.4 02-11-2022

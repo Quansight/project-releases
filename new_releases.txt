@@ -1,4 +1,4 @@
-ipython/ipykernel v6.12.1 04-04-2022
+ipython/ipykernel v6.13.0 04-11-2022
 sympy/sympy sympy-1.10.1 03-19-2022
 jupyterlab/jupyterlab v4.0.0a23 03-31-2022
 spyder-ide/spyder v5.3.0 03-30-2022
